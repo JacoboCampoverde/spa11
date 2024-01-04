@@ -1,0 +1,9 @@
+.extra{
+    display: none;
+}
+
+.extra:has(~ button:active) {
+    display: inline;
+}
+   
+ 
